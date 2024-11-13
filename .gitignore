@@ -1,5 +1,6 @@
 backup
-data
+data/*
+!data/config/
 .docker/entrypoint.d/config.json
 .sl
 
