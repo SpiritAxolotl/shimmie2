@@ -1,5 +1,7 @@
 .thumb IMG {
 	border-width: 2px !important;
+	border-style: solid !important;
+	border-radius: 5px !important;
 }
 
 .shm-thumb-has_child img {
