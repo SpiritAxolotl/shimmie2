@@ -463,6 +463,9 @@ class UserPage extends Extension
             if ($user->can(Permissions::EDIT_USER_PASSWORD)) {
                 $event->add_nav_link("user_admin", new Link('user_admin/list'), "User List", NavLink::is_active(["user_admin"]));
             }
+            if ($user->can(Permissions::EDIT_USER_CLASS)) {
+                $event->add_nav_link("user_admin", new Link('user_admin/classes'), "User Classes", NavLink::is_active(["user_admin"]));
+            }
         }
 
         if ($event->parent === "user" && !$user->is_anonymous()) {
