@@ -42,7 +42,7 @@ class ExtManagerTheme extends Themelet
                     TH("Description")
                 )),
                 $tbody,
-                $editable ? TFOOT(TR(TH(["colspan" => '5'], INPUT(["type" => 'submit', "value" => 'Set Extensions'])))) : null
+                $editable ? TFOOT(TR(TD(["colspan" => '5'], INPUT(["type" => 'submit', "value" => 'Set Extensions'])))) : null
             )
         );
 
