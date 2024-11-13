@@ -2,7 +2,7 @@
 
 namespace Shimmie2;
 
-new UserClass("anonymous", "base", [
+new UserClass("user", "base", [
 	Permissions::CREATE_COMMENT => False
 ]);
 
