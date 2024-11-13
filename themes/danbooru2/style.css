@@ -256,7 +256,13 @@ NAV {
 }
 
 NAV section+section {
-	margin-top: 1rem;
+	margin-top: 0.5rem;
+}
+
+NAV section {
+	padding: 5px 10px 10px;
+	border: solid 2px var(--header-selected);
+	border-radius: 0.5rem;
 }
 
 NAV table {
