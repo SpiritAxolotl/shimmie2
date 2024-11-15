@@ -187,6 +187,15 @@ table.zebra th {
 	text-align: left;
 }
 
+table.zebra input {
+	width: 100%;
+}
+
+table.zebra textarea {
+	width: 100% !important;
+	resize: none;
+}
+
 thead {
 	font-weight: bold;
 	-moz-background-clip: border;
