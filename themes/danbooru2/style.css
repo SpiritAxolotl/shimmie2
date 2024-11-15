@@ -211,6 +211,10 @@ textarea {
 	resize: vertical;
 }
 
+#comment-list-image {
+	display: none;
+}
+
 #subtitle {
 	margin: auto;
 	width: 256px;
