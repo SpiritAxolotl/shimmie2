@@ -207,6 +207,10 @@ td {
 	vertical-align: top;
 }
 
+textarea {
+	resize: vertical;
+}
+
 #subtitle {
 	margin: auto;
 	width: 256px;
